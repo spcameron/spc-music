@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/spcameron/press"
-	"github.com/spcameron/test-site/internal/site"
+	"github.com/spcameron/spc-music/internal/site"
 )
 
 func RunBuild(args []string) (int, error) {
@@ -52,8 +52,7 @@ func RunBuild(args []string) (int, error) {
 	}
 
 	siteData := press.SiteData{
-		// NOTE: UPDATE WITH SITE NAME
-		Title:         "test-site",
+		Title:         "spc-music",
 		StylesheetURL: "/" + strings.Trim(*assets, "/") + "/css/styles.css",
 	}
 

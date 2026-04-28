@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/spcameron/test-site/internal/commands"
+	"github.com/spcameron/spc-music/internal/commands"
 )
 
 func main() {

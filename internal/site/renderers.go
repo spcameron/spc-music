@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/spcameron/press"
-	"github.com/spcameron/test-site/templates"
+	"github.com/spcameron/spc-music/templates"
 )
 
 func Renderers() press.Renderers {

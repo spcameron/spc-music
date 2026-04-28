@@ -1,4 +1,4 @@
-module github.com/spcameron/test-site
+module github.com/spcameron/spc-music
 
 go 1.26.2
 
